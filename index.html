@@ -1,29 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Fylo data storage component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
   <div class="container">
+
+    <div class="content-parent">
+
+      <div class="icons-div">
+        <img class="fylo-logo" src="images/logo.svg" alt="">
+        <div class="icon-div-inline">
+          <div class="icon-sub-div">
+            <img class="img-doc" src="images/icon-document.svg" alt="">
+          </div>
+        </div>
+        <div class="icon-div-inline">
+          <div class="icon-sub-div" id="fol-id">
+            <img class="img-fol" src="images/icon-folder.svg" alt="">
+          </div>
+        </div>
+        <div class="icon-div-inline">
+          <div class="icon-sub-div" id="upl-id">
+            <img class="img-upl" src="images/icon-upload.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="use-ratio">
+        <p class="used">You’ve used <span>815 GB</span> of your storage</p>
+        <div class="script-illustration">
+          <div class="red-illustration">
+            <div class="marker-illustration">
+
+            </div>
+          </div>
+        </div>
+        <div class="base-p">
+          <p class="zero-thousand-gb">0 GB</p>
+          <p class="zero-thousand-gb" id="thousand-gb">1000 GB</p>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="floating-member">
+      <div class="gb-left">
+        <p class="white-text-color" id="font-weight"><span class="gb-left-span white-text-color">185 </span>GB LEFT</p>
+      </div>
+      <div class="right-angle-triangle">
+
+      </div>
+    </div>
+
+
     <img class="background-image" src="images/bg-desktop.png" alt="">
-    You’ve used 815 GB of your storage
 
-    185 GB Left
 
-    0 GB
-    1000 GB
+
+
 
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
@@ -32,4 +87,5 @@
   </div>
 
 </body>
+
 </html>

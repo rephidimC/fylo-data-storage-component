@@ -1,11 +1,183 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+
+p {
+  color: white;
+  font-weight: 100;
+}
+
+span {
+  font-weight: 400;
+}
+
 .background-image {
   max-width: 1237px;
   position: relative;
-  top: 22rem;
+  top: 10rem;
+  z-index: 0;
 }
 
 .container {
-  background-color: rgb( 12, 18, 44);
+  background-color: rgb(12, 18, 44);
   margin: 6rem 3rem;
-  height: 45rem;
+  height: 43.6rem;
+}
+
+.content-parent {
+  position: relative;
+  top: 16rem;
+  z-index: 1;
+  margin-left: 9rem;
+}
+
+.icons-div {
+  background-color: rgb(30, 44, 105);
+  z-index: 1;
+  height: 11rem;
+  width: 15rem;
+  padding-left: 2rem;
+  display: inline-block;
+  border-radius: 0.5rem 5rem 0.5rem 0.5rem;
+  margin-right: 1rem;
+}
+
+.fylo-logo {
+  display: block;
+  height: 1.5rem;
+  width: 5rem;
+  padding: 3rem 0 1.6rem 0;
+}
+
+.use-ratio {
+  height: 8.5rem;
+  width: 40rem;
+  background-color: rgb(30, 44, 105);
+  display: inline-block;
+  position: relative;
+  top: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+.used {
+  margin: 2rem 0 1rem 1.5rem;
+}
+
+.script-illustration {
+  height: 1rem;
+  width: 36rem;
+  background-color: rgb(12, 18, 44);
+  margin: 0 2rem 0 2rem;
+  border-radius: 1rem;
+}
+
+.red-illustration {
+  height: 0.75rem;
+  width: 29rem;
+  background: linear-gradient(90deg, hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) 100%);
+  border-radius: 1rem;
+  position: relative;
+  left: 0.15rem;
+  top: 0.16rem;
+}
+
+.marker-illustration {
+  height: 0.65rem;
+  width: 0.65rem;
+  background-color: white;
+  border-radius: 100%;
+  position: relative;
+  top: 0.03rem;
+  left: 28.2rem;
+}
+
+.base-p {
+  margin: auto 0 auto 1.5rem
+}
+
+.icon-div-inline {
+  display: inline-block;
+  padding-right: 0.7rem;
+}
+
+.icon-sub-div {
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  background-color: rgb(12, 18, 44);
+  border-radius: 0.5rem;
+}
+
+.img-doc {
+  margin-top: 0.5rem;
+}
+
+.img-fol {
+  height: 16px;
+  width: 20px;
+  margin-top: 0.7rem;
+}
+
+#fol-id {
+  position: relative;
+  bottom: 0.3rem;
+}
+
+.img-upl {
+  margin-top: 0.7rem;
+}
+
+#upl-id {
+  position: relative;
+  bottom: 0.3rem;
+}
+
+.zero-thousand-gb {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: 400;
+}
+
+#thousand-gb {
+  position: relative;
+  left: 31rem;
+}
+
+.floating-member {
+  position: absolute;
+  right: 15.5rem;
+  top: 21.2rem;
+  z-index: 1;
+}
+
+.gb-left {
+  height: 3.5rem;
+  width: 10rem;
+  background-color: white;
+  border-radius: 0.5rem 0.5rem 0
+}
+
+.white-text-color {
+  color: rgb(12, 18, 44);
+}
+
+#font-weight {
+  font-weight: 400;
+  padding: 0.4rem 1.2rem;
+}
+
+.gb-left-span {
+  font-weight: 700;
+  font-size: 2rem;
+  /* margin-right: 0.5rem; */
+}
+
+.right-angle-triangle {
+  width: 0;
+  height: 0;
+  border-top: 25px solid white;
+  border-left: 25px solid transparent;
+  position: relative;
+  left: 8.45rem;
 }
